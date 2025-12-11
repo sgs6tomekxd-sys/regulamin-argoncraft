@@ -6,7 +6,7 @@ interface RuleCardProps {
   index: number;
 }
 
-const RuleCard: React.FC<RuleCardProps> = ({ rule, index }) => {
+const RuleCard: React.FC<RuleCardProps> = ({ rule }) => {
   // Parsing text to handle markdown-like bold syntax (**text**)
   const parseText = (text: string) => {
     const parts = text.split(/(\*\*.*?\*\*)/g);
