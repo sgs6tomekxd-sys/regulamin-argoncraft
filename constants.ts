@@ -1,5 +1,5 @@
 import React from 'react';
-import { Book, Scale, Gamepad2, ShoppingCart, Info, Gavel, Coins } from 'lucide-react';
+import { Scale, Gamepad2, ShoppingCart, Info, Gavel, Coins } from 'lucide-react';
 
 export const SERVER_INFO = {
   ip: "argoncraft.pl",
